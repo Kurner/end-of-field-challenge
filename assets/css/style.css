@@ -8,8 +8,6 @@
   }
   .hero .logo {
     position: absolute;
-    width: 361px;
-    height: 356px;
     left: 29px;
     top: 9px;
   }
@@ -135,9 +133,8 @@
   .features {
     position: absolute;
     width: 312px;
-    height: 399px;
     left: 58px;
-    top: 421px;
+    top: 5.5%;
   }
   .features ul {
     list-style-type: none;
@@ -145,12 +142,10 @@
   .features ul .feature1 .icone,
   .features ul .feature2 .icone,
   .features ul .feature3 .icone {
-    width: 24px;
-    height: 26px;
-    left: 0px;
-    top: 3px;
+    -webkit-transform: translate(-18%, 163%);
+            transform: translate(-18%, 163%);
   }
-  .features ul .feature.ft1,
+  .features ul .feature1.ft1,
   .features ul .feature2.ft1,
   .features ul .feature3.ft1 {
     position: absolute;
@@ -158,6 +153,18 @@
     left: 19.31%;
     right: 16.72%;
     top: calc(50% - 32px / 2 - 22.5px);
+  }
+  .features ul .feature1 img,
+  .features ul .feature2 img,
+  .features ul .feature3 img {
+    max-width: 27px;
+  }
+  .content1 {
+    position: absolute;
+    width: 428px;
+    height: 728px;
+    left: 0px;
+    top: 886px;
   }
 }
 /*# sourceMappingURL=style.css.map */

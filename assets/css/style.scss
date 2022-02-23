@@ -10,8 +10,6 @@
   .hero {
     .logo {
       position: absolute;
-      width: 361px;
-      height: 356px;
       left: 29px;
       top: 9px;
 
@@ -158,9 +156,8 @@
   .features {
     position: absolute;
     width: 312px;
-    height: 399px;
     left: 58px;
-    top: 421px;
+    top: 5.5%;
 
     ul {
       list-style-type: none;
@@ -168,13 +165,10 @@
       .feature1 .icone,
       .feature2 .icone,
       .feature3 .icone {
-        width: 24px;
-        height: 26px;
-        left: 0px;
-        top: 3px;
+        transform: translate(-18%, 163%);
       }
 
-      .feature.ft1,
+      .feature1.ft1,
       .feature2.ft1,
       .feature3.ft1 {
         position: absolute;
@@ -183,6 +177,19 @@
         right: 16.72%;
         top: calc(50% - 32px / 2 - 22.5px);
       }
+
+      .feature1 img,
+      .feature2 img,
+      .feature3 img {
+        max-width: 27px;
+      }
     }
+  }
+  .content1 {
+    position: absolute;
+    width: 428px;
+    height: 728px;
+    left: 0px;
+    top: 886px;
   }
 }
