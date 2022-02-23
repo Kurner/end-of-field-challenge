@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    body 
+    {        
+        position: relative;
+        width: 428px;
+        height: 6642px;
+        background: #E3EEF8;
+    }
+
+    .logo
+    {
+        a
+        {
+            display: flex;
+            align-items: center;
+            width: 50.52px;
+            height: 14px;
+            left: 35px;
+            top: 9px;
+            text-decoration: none;
+
+            p
+            {
+                font:
+                {
+                    style: normal;
+                    family: Rubik;
+                    size: 12px;
+                    weight: normal;
+                }
+
+                line-height: 14px;
+                letter-spacing: -1px;
+
+                color: #1F1F1F;
+            }
+
+        }
+
+        .burger
+        {
+            width: 15px;
+            height: 10px;
+            left: 375px;
+            top: 10px;
+        }
+    }
+  }
