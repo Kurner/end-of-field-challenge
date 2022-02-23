@@ -3,9 +3,16 @@
     position: relative;
     width: 428px;
     height: 6642px;
-    background: #E3EEF8;
+    background: #e3eef8;
   }
-  .logo a {
+  .hero .logo {
+    position: absolute;
+    width: 361px;
+    height: 356px;
+    left: 29px;
+    top: 9px;
+  }
+  .hero .logo a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -18,20 +25,56 @@
     top: 9px;
     text-decoration: none;
   }
-  .logo a p {
+  .hero .logo a p {
     font-style: normal;
     font-family: Rubik;
     font-size: 12px;
     font-weight: normal;
     line-height: 14px;
     letter-spacing: -1px;
-    color: #1F1F1F;
+    color: #1f1f1f;
   }
-  .logo .burger {
+  .hero .logo .burger {
     width: 15px;
     height: 10px;
     left: 375px;
     top: 10px;
+  }
+  .hero .form {
+    position: absolute;
+    width: 241.3px;
+    height: 28.67px;
+    left: 93px;
+    top: 300px;
+  }
+  .hero .form input {
+    left: 21.73%;
+    right: 47.16%;
+    top: 4.53%;
+    bottom: 95.05%;
+  }
+  .hero .rating {
+    position: absolute;
+    left: 20.09%;
+    right: 19.86%;
+    top: 5.19%;
+    bottom: 94.5%;
+  }
+  .hero .rating p {
+    position: absolute;
+    height: 12px;
+    left: 21.6%;
+    right: 21.6%;
+    top: calc(50% - 12px / 2 - 4px);
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.32381px;
+    color: #878b90;
   }
 }
 /*# sourceMappingURL=style.css.map */

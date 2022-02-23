@@ -1,48 +1,92 @@
 @media only screen and (max-width: 600px) {
-    body 
-    {        
-        position: relative;
-        width: 428px;
-        height: 6642px;
-        background: #E3EEF8;
+  body {
+    position: relative;
+    width: 428px;
+    height: 6642px;
+    background: #e3eef8;
+  }
+
+  .hero {
+    .logo {
+      position: absolute;
+      width: 361px;
+      height: 356px;
+      left: 29px;
+      top: 9px;
+
+      a {
+        display: flex;
+        align-items: center;
+        width: 50.52px;
+        height: 14px;
+        left: 35px;
+        top: 9px;
+        text-decoration: none;
+
+        p {
+          font: {
+            style: normal;
+            family: Rubik;
+            size: 12px;
+            weight: normal;
+          }
+
+          line-height: 14px;
+          letter-spacing: -1px;
+
+          color: #1f1f1f;
+        }
+      }
+
+      .burger {
+        width: 15px;
+        height: 10px;
+        left: 375px;
+        top: 10px;
+      }
     }
 
-    .logo
-    {
-        a
-        {
-            display: flex;
-            align-items: center;
-            width: 50.52px;
-            height: 14px;
-            left: 35px;
-            top: 9px;
-            text-decoration: none;
+    .form {
+      position: absolute;
+      width: 241.3px;
+      height: 28.67px;
+      left: 93px;
+      top: 300px;
 
-            p
-            {
-                font:
-                {
-                    style: normal;
-                    family: Rubik;
-                    size: 12px;
-                    weight: normal;
-                }
+      input {
+        left: 21.73%;
+        right: 47.16%;
+        top: 4.53%;
+        bottom: 95.05%;
+      }
+    }
 
-                line-height: 14px;
-                letter-spacing: -1px;
+    .rating {
+      position: absolute;
+      left: 20.09%;
+      right: 19.86%;
+      top: 5.19%;
+      bottom: 94.5%;
 
-                color: #1F1F1F;
-            }
+      p {
+        position: absolute;
+        height: 12px;
+        left: 21.6%;
+        right: 21.6%;
+        top: calc(50% - 12px / 2 - 4px);
 
-        }
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        /* identical to box height */
 
-        .burger
-        {
-            width: 15px;
-            height: 10px;
-            left: 375px;
-            top: 10px;
-        }
+        text-align: center;
+        letter-spacing: -0.32381px;
+
+        color: #878b90;
+      }
     }
   }
+}
