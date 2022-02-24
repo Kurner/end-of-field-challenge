@@ -202,11 +202,11 @@ header {
   .price_1 {
     size: 15px;
     margin-left: 58px;
-    padding-top: 48px;
+    padding-top: 55px;
   }
   .price_2 {
     size: 25px;
-    line-height: 15px;
+    line-height: 5px;
     padding-left: 58px;
     padding-right: 59px;
     font-weight: 700;
@@ -306,16 +306,39 @@ header {
     border-radius: 6px;
     background-color: #ffffff;
     color: #1f1f1f;
+
+    .pricing{
+      color: #1f1f1f;
+      p{
+        color: #1f1f1f;
+      }
+
+    }
   }
   .pop {
+    p{
+      font-size: 10px;
+    }
     background-color: #4eab08;
     color: #ffffff;
     border: 1px solid #4eab08;
     border-radius: 13px;
+    height: 20px;
+    width: 64px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
   }
   .formule2 {
     display: flex;
     justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 43px;
+    margin-top: 30px;
+    // p{
+    //   font-size: 13px;
+    //   font-weight: 700;
+    // }
   }
-  //fonctinne en faite 
+  
 }

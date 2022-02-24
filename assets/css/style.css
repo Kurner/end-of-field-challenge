@@ -221,12 +221,12 @@ header {
 .price .price_1 {
   size: 15px;
   margin-left: 58px;
-  padding-top: 48px;
+  padding-top: 55px;
 }
 
 .price .price_2 {
   size: 25px;
-  line-height: 15px;
+  line-height: 5px;
   padding-left: 58px;
   padding-right: 59px;
   font-weight: 700;
@@ -357,11 +357,28 @@ header {
   color: #1f1f1f;
 }
 
+.price .box-price2 .pricing {
+  color: #1f1f1f;
+}
+
+.price .box-price2 .pricing p {
+  color: #1f1f1f;
+}
+
 .price .pop {
   background-color: #4eab08;
   color: #ffffff;
   border: 1px solid #4eab08;
   border-radius: 13px;
+  height: 20px;
+  width: 64px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.price .pop p {
+  font-size: 10px;
 }
 
 .price .formule2 {
@@ -371,5 +388,8 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-left: 45px;
+  padding-right: 43px;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
