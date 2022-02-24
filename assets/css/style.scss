@@ -174,16 +174,27 @@ header {
   .background {
     position: absolute;
     width: auto;
-    height: 270px;
-    padding-top: 288px;
+    height: 376px;
+    padding-top: 272px;
     left: 0px;
-    top: 970px;
-    background-color: #192f48;
+    top: 986px;
+    background-color: #258aff;
+    z-index: -1;
 
     .container {
+      color: white;
       margin: auto;
       width: 75%;
       height: fit-content;
+
+      .button1 {
+        border: 0;
+        background: #ffffff;
+        border-radius: 5px;
+        padding: 9px 60px 8px 59px;
+        font-size: 12px;
+        color: #258aff;
+      }
     }
 
     img {
@@ -191,6 +202,22 @@ header {
       z-index: 1;
       display: block;
       margin: auto;
+    }
+
+    .content1_1 {
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 18px;
+      letter-spacing: 2.8125px;
+      text-transform: uppercase;
+      width: 32%;
+    }
+    .content1_2 {
+      width: 80%;
+    }
+    .content1_3 {
+      line-height: 32px;
+      width: 88%;
     }
   }
 }
