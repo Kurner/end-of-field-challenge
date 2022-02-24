@@ -126,11 +126,11 @@ body {
     ul {
       list-style-type: none;
 
-      .feature1 .icone,
-      .feature2 .icone,
-      .feature3 .icone {
-        transform: translate(-18%, 163%);
-      }
+      // .feature1 .icone,
+      // .feature2 .icone,
+      // .feature3 .icone {
+      //   transform: translate(-18%, 163%);
+      // }
 
       .feature1.ft1,
       .feature2.ft1,
@@ -154,10 +154,125 @@ body {
   }
   .price {
     background-color: #192f48;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+    .price_1{
+      size: 15px;
+      margin-left: 58px;
+      padding-top: 48px;
+    }
+    .price_2{
+      size: 25px;
+      line-height: 15px;
+      padding-left: 58px;
+      padding-right: 59px;
+      font-weight: 700;
+    }
+    .formule{
+      color: #E5E5E5;
+      height: 32px;
+      width: 39px;
+      padding-left: 45px;
+      font-size: 13px;
+    }
+    .formule-txt{
+      color: #E5E5E5;
+      padding-left: 44px;
+      padding-right: 40px;
+      font-size: 12px;
+      line-height: 23px;
+    }
     .box-price1 {
       display: flex;
       flex-direction: column;
+      justify-content: space-evenly;
+      margin-right: 57px;
+      margin-bottom: 50px;
+      margin-left: 58px;
+      height: 515px;
+
+      border: 1px solid #2b405a;
+      border-radius: 6px;
       background-color: #2b405a;
+    }
+    .pricing{
+      color: #FFFFFF;
+      display: flex;
+      padding-left: 45px;
+      .pricing_1{
+        font-size: 15px;
+        p{
+          margin: 0;
+        }
+      }
+      .pricing_2{
+        font-size: 30px;
+        p{
+          margin: 0;
+          margin-top: 2px;
+        }
+      }
+      .princing_3{
+        height: 17px;
+      }
+      .pricing_4{
+        font-size: 17px;
+      }
+    }
+    ul{
+      list-style-type: none;
+      list-style-image: url(/assets/img/Path.svg);
+    }
+    li{
+      span{
+        color: #878B90;
+        text-decoration: line-through;
+      }
+      
+    }
+    .txt-cmt{
+      color: #878B90;
+      font-size: 12px;
+      padding-left: 40px;
+    }
+    .button-start{
+      padding-left: 42px;
+      button{
+        background-color: #258AFF;
+        color: #FFFFFF;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        width: 181px;
+        font-size: 12px;
+        border: 0;
+      }
+    }
+    .charact{
+      padding-left: 35px;
+    }
+    .box-price2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-right: 57px;
+      margin-bottom: 70px;
+      margin-left: 58px;
+      height: 515px;
+  
+      border: 1px solid #FFFFFF;
+      border-radius: 6px;
+      background-color: #FFFFFF;
+      color: #1F1F1F;
+    }
+    .pop{
+      background-color: #4EAB08;
+      color: #FFFFFF;
+      border: 1px solid #4EAB08;
+      border-radius: 13px;
+    }
+    .formule2{
+      display: flex;
     }
   }
 
