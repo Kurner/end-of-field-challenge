@@ -1,15 +1,8 @@
 body {
-  position: relative;
-  width: 428px;
-  height: 6642px;
+  width: 100%;
+  height: 100%;
   background: #e3eef8;
   font-family: "Karla", sans-serif;
-}
-
-.hero .logo {
-  position: absolute;
-  left: 29px;
-  top: 9px;
 }
 
 .hero .logo a {
@@ -44,14 +37,8 @@ body {
 }
 
 .hero .present {
-  position: absolute;
-  height: 12px;
-  left: 30.37%;
-  right: 24.77%;
-  top: calc(50% - 12px / 2 - 3240px);
   font-size: 10px;
   line-height: 12px;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 2.8125px;
   text-transform: uppercase;
@@ -59,24 +46,15 @@ body {
 }
 
 .hero h1 {
-  position: absolute;
-  left: 6.78%;
-  right: 8.88%;
-  top: 1.55%;
-  bottom: 97.09%;
   font-weight: bold;
   font-size: 40px;
   line-height: 45px;
-  /* or 112% */
   text-align: center;
   letter-spacing: -4px;
   color: #1f1f1f;
 }
 
 .hero p span {
-  margin-top: 5%;
-  display: block;
-  position: absolute;
   left: 17.99%;
   right: 17.76%;
   top: 3.15%;
@@ -114,23 +92,7 @@ body {
   bottom: 95.05%;
 }
 
-.hero .rating {
-  width: 94%;
-  margin: auto 0;
-  position: absolute;
-  /* left: 20.09%; */
-  /* right: 19.86%; */
-  top: 80%;
-  bottom: 94.5%;
-  margin-top: 5%;
-}
-
 .hero .rating p {
-  position: absolute;
-  height: 12px;
-  left: 21.6%;
-  right: 21.6%;
-  top: calc(50% - 12px / 2 - 4px);
   font-family: Karla;
   font-style: normal;
   font-weight: normal;
@@ -140,13 +102,6 @@ body {
   text-align: center;
   letter-spacing: -0.32381px;
   color: #878b90;
-}
-
-.features {
-  position: absolute;
-  width: 312px;
-  left: 58px;
-  top: 5.5%;
 }
 
 .features ul {
@@ -163,10 +118,6 @@ body {
 .features ul .feature1.ft1,
 .features ul .feature2.ft1,
 .features ul .feature3.ft1 {
-  position: absolute;
-  /* height: 39px; */
-  left: 19.31%;
-  right: 16.72%;
   top: calc(50% - 32px / 2 - 22.5px);
 }
 
@@ -176,34 +127,23 @@ body {
   max-width: 27px;
 }
 
-.content1 {
-  position: absolute;
-  width: 428px;
-  height: 728px;
-  left: 0px;
-  top: 886px;
-}
-
 .content1 img {
   display: block;
   margin: auto;
 }
 
-.content1 .content1_1 {
-  margin-left: 58px;
+.price {
+  background-color: #192f48;
 }
 
-.content1 .content1_1 p {
-  height: 36px;
-  left: 19.31%;
-  right: 16.72%;
-}
-
-.content1 .content1_2 {
-  margin-left: 58px;
-}
-
-.content1 .content1_3 {
-  margin-left: 58px;
+.price .box-price1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #2b405a;
 }
 /*# sourceMappingURL=style.css.map */
