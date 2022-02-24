@@ -192,3 +192,128 @@ header {
     margin: auto;
   }
 }
+
+.price {
+  background-color: #192f48;
+  color: #ffffff;
+  padding-bottom: 50px;
+  .price_1 {
+    size: 15px;
+    margin-left: 58px;
+    padding-top: 48px;
+  }
+  .price_2 {
+    size: 25px;
+    line-height: 15px;
+    padding-left: 58px;
+    padding-right: 59px;
+    font-weight: 700;
+  }
+  .formule {
+    color: #e5e5e5;
+    height: 32px;
+    width: 39px;
+    padding-left: 45px;
+    font-size: 13px;
+  }
+  .formule-txt {
+    color: #e5e5e5;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .box-price1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 57px;
+    margin-bottom: 50px;
+    margin-left: 58px;
+    height: 515px;
+
+    border: 1px solid #2b405a;
+    border-radius: 6px;
+    background-color: #2b405a;
+  }
+  .pricing {
+    color: #ffffff;
+    display: flex;
+    padding-left: 45px;
+    .pricing_1 {
+      font-size: 15px;
+      p {
+        margin: 0;
+      }
+    }
+    .pricing_2 {
+      font-size: 30px;
+      p {
+        margin: 0;
+        margin-top: 2px;
+      }
+    }
+    .princing_3 {
+      height: 17px;
+    }
+    .pricing_4 {
+      font-size: 17px;
+    }
+  }
+  ul {
+    list-style-type: none;
+    list-style-image: url(/assets/img/Path.svg);
+  }
+  li {
+    span {
+      color: #878b90;
+      text-decoration: line-through;
+    }
+  }
+  .txt-cmt {
+    color: #878b90;
+    font-size: 12px;
+    padding-left: 40px;
+  }
+  .button-start {
+    padding-left: 42px;
+    button {
+      background-color: #258aff;
+      color: #ffffff;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      width: 181px;
+      font-size: 12px;
+      border: 0;
+    }
+  }
+  .charact {
+    padding-left: 35px;
+  }
+  .box-price2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 57px;
+    margin-bottom: 70px;
+    margin-left: 58px;
+    height: 515px;
+
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #1f1f1f;
+  }
+  .pop {
+    background-color: #4eab08;
+    color: #ffffff;
+    border: 1px solid #4eab08;
+    border-radius: 13px;
+  }
+  .formule2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  //fonctinne en faite 
+}
