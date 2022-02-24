@@ -175,8 +175,9 @@ header {
     position: absolute;
     width: auto;
     height: 270px;
+    padding-top: 288px;
     left: 0px;
-    top: 1266px;
+    top: 970px;
     background-color: #192f48;
 
     .container {
@@ -184,11 +185,12 @@ header {
       width: 75%;
       height: fit-content;
     }
-  }
-  img {
-    position: absolute;
-    z-index: 1;
-    display: block;
-    margin: auto;
+
+    img {
+      position: absolute;
+      z-index: 1;
+      display: block;
+      margin: auto;
+    }
   }
 }
