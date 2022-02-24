@@ -191,8 +191,9 @@ header {
   position: absolute;
   width: auto;
   height: 270px;
+  padding-top: 288px;
   left: 0px;
-  top: 1266px;
+  top: 970px;
   background-color: #192f48;
 }
 
@@ -204,7 +205,7 @@ header {
   height: fit-content;
 }
 
-.content1 img {
+.content1 .background img {
   position: absolute;
   z-index: 1;
   display: block;
