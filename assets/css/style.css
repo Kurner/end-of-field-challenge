@@ -188,4 +188,22 @@ body {
   display: block;
   margin: auto;
 }
+
+.content1 .content1_1 {
+  margin-left: 58px;
+}
+
+.content1 .content1_1 p {
+  height: 36px;
+  left: 19.31%;
+  right: 16.72%;
+}
+
+.content1 .content1_2 {
+  margin-left: 58px;
+}
+
+.content1 .content1_3 {
+  margin-left: 58px;
+}
 /*# sourceMappingURL=style.css.map */
