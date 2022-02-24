@@ -181,6 +181,11 @@
       .feature1 img,
       .feature2 img,
       .feature3 img {
+        filter:{
+
+         invert(10%) sepia(90%) saturate(5268%) hue-rotate(245deg)
+          brightness(109%) contrast(155%);
+        }
         max-width: 27px;
       }
     }
