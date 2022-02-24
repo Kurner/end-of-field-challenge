@@ -5,7 +5,16 @@ body {
   font-family: "Karla", sans-serif;
 }
 
-.hero .logo a {
+header {
+  height: 847px;
+}
+
+.logo {
+  margin-left: 35px;
+  margin-top: 11.5px;
+}
+
+.logo a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-.hero .logo a p {
+.logo a p {
   font-style: normal;
   font-family: Rubik;
   font-size: 12px;
@@ -29,11 +38,21 @@ body {
   color: #1f1f1f;
 }
 
-.hero .logo .burger {
+.logo .burger {
   width: 15px;
   height: 10px;
   left: 375px;
   top: 10px;
+}
+
+.hero {
+  margin: auto;
+  width: 361px;
+  height: 276px;
+}
+
+.hero nav {
+  display: none;
 }
 
 .hero .present {
@@ -42,10 +61,12 @@ body {
   text-align: center;
   letter-spacing: 2.8125px;
   text-transform: uppercase;
+  margin-top: 45px;
   color: #666666;
 }
 
 .hero h1 {
+  margin-bottom: 3%;
   font-weight: bold;
   font-size: 40px;
   line-height: 45px;
@@ -54,42 +75,65 @@ body {
   color: #1f1f1f;
 }
 
-.hero p span {
-  left: 17.99%;
-  right: 17.76%;
-  top: 3.15%;
-  bottom: 95.72%;
+.hero .create {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.hero .create span {
   font-size: 15px;
   line-height: 25px;
-  /* or 167% */
   text-align: center;
+  /* or 167% */
   letter-spacing: -0.4px;
   color: #666666;
 }
 
 .hero .form {
-  margin-top: 5%;
-  position: absolute;
-  width: 241.3px;
-  height: 28.67px;
-  left: 93px;
-  top: 300px;
+  margin-top: 2%;
 }
 
 .hero .form form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: auto;
+  gap: 5px;
 }
 
-.hero .form form input {
-  left: 21.73%;
-  right: 47.16%;
-  top: 4.53%;
-  bottom: 95.05%;
+.hero .form :nth-child(1) {
+  width: 65%;
+  padding: 1.5%;
+  border: none;
+  border-radius: 3px;
+}
+
+.hero .form :nth-child(1) ::-webkit-input-placeholder {
+  font-size: 10px;
+}
+
+.hero .form :nth-child(1) :-ms-input-placeholder {
+  font-size: 10px;
+}
+
+.hero .form :nth-child(1) ::-ms-input-placeholder {
+  font-size: 10px;
+}
+
+.hero .form :nth-child(1) ::placeholder {
+  font-size: 10px;
+}
+
+.hero .form :nth-child(2) {
+  background: #fc593b;
+  border-radius: 5px;
+  padding: 0px 20px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+  text-align: center;
 }
 
 .hero .rating p {
@@ -104,8 +148,15 @@ body {
   color: #878b90;
 }
 
+.features {
+  margin: auto auto 60px auto;
+  width: 75%;
+  height: 276px;
+}
+
 .features ul {
   list-style-type: none;
+  width: 312px;
 }
 
 .features ul .feature1 .icone,
@@ -115,10 +166,11 @@ body {
           transform: translate(-18%, 163%);
 }
 
-.features ul .feature1.ft1,
-.features ul .feature2.ft1,
-.features ul .feature3.ft1 {
-  top: calc(50% - 32px / 2 - 22.5px);
+.features ul .feature1 .ft2 p,
+.features ul .feature2 .ft2 p,
+.features ul .feature3 .ft2 p {
+  line-height: 28px;
+  font-size: 15px;
 }
 
 .features ul .feature1 img,
@@ -127,7 +179,34 @@ body {
   max-width: 27px;
 }
 
+.content1 {
+  margin: auto;
+  width: 75%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.content1 .background {
+  position: absolute;
+  width: auto;
+  height: 270px;
+  left: 0px;
+  top: 1266px;
+  background-color: #258aff;
+}
+
+.content1 .background .container {
+  margin: auto;
+  width: 75%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .content1 img {
+  position: absolute;
+  z-index: 1;
   display: block;
   margin: auto;
 }
