@@ -259,6 +259,10 @@ header {
       background: #258aff;
       border-radius: 50%;
       padding: 13px;
+
+      img {
+        transform: translateX(-1px);
+      }
     }
 
     .elem1_1 {
@@ -277,6 +281,8 @@ header {
   }
 
   .bitmap {
+    margin: auto;
+    width: 300px;
     img {
       border-radius: 30px;
     }

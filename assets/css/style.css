@@ -290,6 +290,11 @@ header {
   padding: 13px;
 }
 
+.content2 .elem1 .img img {
+  -webkit-transform: translateX(-1px);
+          transform: translateX(-1px);
+}
+
 .content2 .elem1 .elem1_1 {
   font-weight: bold;
   font-size: 20px;
@@ -302,6 +307,11 @@ header {
   color: #666666;
   width: 90%;
   padding-bottom: 54px;
+}
+
+.content2 .bitmap {
+  margin: auto;
+  width: 300px;
 }
 
 .content2 .bitmap img {
