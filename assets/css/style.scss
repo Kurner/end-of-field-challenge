@@ -336,6 +336,7 @@ header {
   justify-content: center;
   align-items: center;
   .price_1 {
+    padding-top: 48px;
     position: relative;
     left: -72px;
     p{
@@ -440,6 +441,7 @@ header {
       padding-bottom: 5px;
       border-radius: 5px;
       width: 181px;
+      height: 30px;
       font-size: 12px;
       border: 0;
     }
@@ -501,6 +503,14 @@ header {
     padding-left: 45px;
     padding-right: 43px;
     margin-top: 30px;
+  }
+  .formule-txt2{
+    color: #666666;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 400;
   }
 }
 footer{
