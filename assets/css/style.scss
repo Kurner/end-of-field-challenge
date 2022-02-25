@@ -425,3 +425,237 @@ header {
     margin-bottom: 35px;
   }
 }
+.price {
+  width: 100%;
+  background-color: #192f48;
+  color: #ffffff;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .price_1 {
+    padding-top: 48px;
+    position: relative;
+    left: -72px;
+    p{
+    font-size: 15px;
+    font-weight: 700;
+    }
+  }
+  .price_2 {
+    p{
+    font-size: 25px;
+    font-weight: 700;
+    }
+  }
+  .formule {
+    color: #e5e5e5;
+    height: 32px;
+    width: 39px;
+    padding-left: 45px;
+    font-size: 13px;
+  }
+  .formule-txt {
+    color: #e5e5e5;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .box-price1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 57px;
+    margin-bottom: 50px;
+    margin-left: 58px;
+    height: 515px;
+    width: 320px;
+
+    border: 1px solid #2b405a;
+    border-radius: 6px;
+    background-color: #2b405a;
+
+    ul {
+      counter-reset: section;
+
+      list-style-type: none;
+    }
+     li:nth-child(1){
+       list-style-image: url(/assets/img/Path.svg);
+     }
+     li:nth-child(2){
+       list-style-image: url(/assets/img/Path.svg);
+     }
+     li:nth-child(3){
+       list-style: url(/assets/img/Pathgrey.svg);
+       color: #878b90;
+        text-decoration: line-through;
+     }
+     li:nth-child(4){
+       list-style-image: url(/assets/img/Pathgrey.svg);
+       color: #878b90;
+        text-decoration: line-through;
+     }
+
+  }
+  .pricing {
+    color: #ffffff;
+    display: flex;
+    padding-left: 45px;
+    .pricing_1 {
+      font-size: 15px;
+      p {
+        margin: 0;
+      }
+    }
+    .pricing_2 {
+      font-size: 30px;
+      p {
+        margin: 0;
+        margin-top: 2px;
+      }
+    }
+    .princing_3 {
+      height: 17px;
+    }
+    .pricing_4 {
+      font-size: 17px;
+    }
+  }
+  
+  .txt-cmt {
+    color: #878b90;
+    font-size: 12px;
+    padding-left: 40px;
+  }
+  .button-start {
+    padding-left: 42px;
+    button {
+      background-color: #258aff;
+      color: #ffffff;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      width: 181px;
+      height: 30px;
+      font-size: 12px;
+      border: 0;
+    }
+  }
+  .charact {
+    padding-left: 35px;
+  }
+  .box-price2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 57px;
+    margin-bottom: 70px;
+    margin-left: 58px;
+    height: 515px;
+    width: 320px;
+
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #1f1f1f;
+    
+    ul{
+      list-style-image: url(/assets/img/Pathblack.svg);
+    }
+
+    .pricing{
+      color: #1f1f1f;
+      p{
+        color: #1f1f1f;
+      }
+
+    }
+    button{
+      color: #FFFFFF;
+      background-color: #FC593B;
+    }
+  }
+  .pop {
+    p{
+      font-size: 10px;
+      align-items: center;
+      text-align: center;
+      margin-top: 5px;
+    }
+    background-color: #4eab08;
+    color: #ffffff;
+    border: 1px solid #4eab08;
+    border-radius: 13px;
+    height: 20px;
+    width: 64px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+  }
+  .formule2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 43px;
+    margin-top: 30px;
+  }
+  .formule-txt2{
+    color: #666666;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+}
+footer{
+  width: 100%;
+  margin: 50px;
+  .logo{
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+  .footxt{
+    width: 312px;
+    height: 84px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666666;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    gap: 0.9rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .menu{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    p{
+      font-size: 14px;
+      font-weight: 700;
+      color: #666666;
+    }
+    ul{
+      list-style-type: none;
+      
+      padding-left: 0;
+    }
+    li{
+      line-height: 40px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+    a{
+      text-decoration: none;
+      color: #1F1F1F;
+    }
+  }
+}
