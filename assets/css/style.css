@@ -189,23 +189,12 @@ header {
 }
 
 .content1 .background {
-  position: absolute;
-<<<<<<< HEAD
   width: auto;
   height: 270px;
   padding-top: 288px;
   left: 0px;
   top: 970px;
   background-color: #192f48;
-=======
-  height: 405px;
-  padding-top: 272px;
-  left: 0px;
-  right: 0px;
-  top: 986px;
-  background-color: #258aff;
-  z-index: -1;
->>>>>>> nicolas
 }
 
 .content1 .background .container {
@@ -432,12 +421,12 @@ header {
   margin-top: 30px;
 }
 
-.content2 {
+.price .content2 {
   margin: auto;
   width: 300px;
 }
 
-.content2 .content2_1 {
+.price .content2 .content2_1 {
   line-height: 18px;
   font-weight: bold;
   font-size: 15px;
@@ -446,20 +435,20 @@ header {
   color: #258aff;
 }
 
-.content2 .content2_2 {
+.price .content2 .content2_2 {
   font-weight: bold;
   font-size: 19px;
   line-height: 30px;
   letter-spacing: -1.52632px;
 }
 
-.content2 .content2_3 {
+.price .content2 .content2_3 {
   font-size: 15px;
   line-height: 32px;
   color: #666666;
 }
 
-.content2 .elem1 {
+.price .content2 .elem1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -472,7 +461,7 @@ header {
           align-items: center;
 }
 
-.content2 .elem1 .img {
+.price .content2 .elem1 .img {
   width: 20px;
   height: 20px;
   background: #258aff;
@@ -480,13 +469,13 @@ header {
   padding: 13px;
 }
 
-.content2 .elem1 .elem1_1 {
+.price .content2 .elem1 .elem1_1 {
   font-weight: bold;
   font-size: 20px;
   line-height: 32px;
 }
 
-.content2 .elem1 .elem1_2 {
+.price .content2 .elem1 .elem1_2 {
   line-height: 28px;
   text-align: center;
   color: #666666;
@@ -494,7 +483,7 @@ header {
   padding-bottom: 54px;
 }
 
-.content2 .bitmap img {
+.price .content2 .bitmap img {
   border-radius: 30px;
 }
 /*# sourceMappingURL=style.css.map */
