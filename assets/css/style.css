@@ -42,7 +42,6 @@ header {
   width: 15px;
   height: 10px;
   left: 375px;
-  top: 10px;
 }
 
 .hero {
@@ -150,7 +149,7 @@ header {
 
 .features {
   margin: auto auto 60px auto;
-  width: 75%;
+  width: 300px;
   height: 276px;
 }
 
@@ -166,7 +165,7 @@ header {
           transform: translate(-18%, 163%);
 }
 
-.features ul .feature1 .ft2 p,
+.features ul auto .feature1 .ft2 p,
 .features ul .feature2 .ft2 p,
 .features ul .feature3 .ft2 p {
   line-height: 28px;
@@ -180,19 +179,21 @@ header {
 }
 
 .content1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: auto;
-  width: 75%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: 300px;
+  height: 804px;
+  margin-bottom: 67px;
 }
 
 .content1 .background {
   position: absolute;
-  width: auto;
-  height: 376px;
+  height: 405px;
   padding-top: 272px;
   left: 0px;
+  right: 0px;
   top: 986px;
   background-color: #258aff;
   z-index: -1;
@@ -401,5 +402,71 @@ header {
   line-height: 32px;
   width: 88%;
 >>>>>>> nicolas
+}
+
+.content2 {
+  margin: auto;
+  width: 300px;
+}
+
+.content2 .content2_1 {
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2.8125px;
+  text-transform: uppercase;
+  color: #258aff;
+}
+
+.content2 .content2_2 {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: -1.52632px;
+}
+
+.content2 .content2_3 {
+  font-size: 15px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.content2 .elem1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content2 .elem1 .img {
+  width: 20px;
+  height: 20px;
+  background: #258aff;
+  border-radius: 50%;
+  padding: 13px;
+}
+
+.content2 .elem1 .elem1_1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.content2 .elem1 .elem1_2 {
+  line-height: 28px;
+  text-align: center;
+  color: #666666;
+  width: 90%;
+  padding-bottom: 54px;
+}
+
+.content2 .bitmap img {
+  border-radius: 30px;
 }
 /*# sourceMappingURL=style.css.map */
