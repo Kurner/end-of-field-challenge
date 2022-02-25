@@ -139,7 +139,7 @@ header {
 
 .features {
   margin: auto auto 60px auto;
-  width: 75%;
+  width: 300px;
   height: 276px;
   ul {
     list-style-type: none;
@@ -150,8 +150,7 @@ header {
     .feature3 .icone {
       transform: translate(-18%, 163%);
     }
-
-    .feature1 .ft2 p,
+    auto .feature1 .ft2 p,
     .feature2 .ft2 p,
     .feature3 .ft2 p {
       line-height: 28px;
@@ -166,18 +165,21 @@ header {
   }
 }
 .content1 {
+  justify-content: center;
   margin: auto;
-  width: 75%;
-  height: fit-content;
+  width: 300px;
+  height: 804px;
+  margin-bottom: 67px;
 
   .background {
     position: absolute;
-    width: auto;
-    height: 270px;
-    padding-top: 288px;
+    height: 405px;
+    padding-top: 272px;
     left: 0px;
-    top: 970px;
-    background-color: #192f48;
+    right: 0px;
+    top: 986px;
+    background-color: #258aff;
+    z-index: -1;
 
     .container {
       margin: auto;
@@ -193,7 +195,164 @@ header {
     }
   }
 }
+.price {
+  width: 100%;
+  background-color: #192f48;
+  color: #ffffff;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .price_1 {
+    position: relative;
+    left: -72px;
+    p{
+    font-size: 15px;
+    font-weight: 700;
+    }
+  }
+  .price_2 {
+    p{
+    font-size: 25px;
+    font-weight: 700;
+    }
+  }
+  .formule {
+    color: #e5e5e5;
+    height: 32px;
+    width: 39px;
+    padding-left: 45px;
+    font-size: 13px;
+  }
+  .formule-txt {
+    color: #e5e5e5;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .box-price1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 57px;
+    margin-bottom: 50px;
+    margin-left: 58px;
+    height: 515px;
+    width: 320px;
 
+    border: 1px solid #2b405a;
+    border-radius: 6px;
+    background-color: #2b405a;
+  }
+  .pricing {
+    color: #ffffff;
+    display: flex;
+    padding-left: 45px;
+    .pricing_1 {
+      font-size: 15px;
+      p {
+        margin: 0;
+      }
+    }
+    .pricing_2 {
+      font-size: 30px;
+      p {
+        margin: 0;
+        margin-top: 2px;
+      }
+    }
+    .princing_3 {
+      height: 17px;
+    }
+    .pricing_4 {
+      font-size: 17px;
+    }
+  }
+  ul {
+    list-style-type: none;
+    list-style-image: url(/assets/img/Path.svg);
+  }
+  li {
+    span {
+      color: #878b90;
+      text-decoration: line-through;
+    }
+  }
+  .txt-cmt {
+    color: #878b90;
+    font-size: 12px;
+    padding-left: 40px;
+  }
+  .button-start {
+    padding-left: 42px;
+    button {
+      background-color: #258aff;
+      color: #ffffff;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      width: 181px;
+      font-size: 12px;
+      border: 0;
+    }
+  }
+  .charact {
+    padding-left: 35px;
+  }
+  .box-price2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 57px;
+    margin-bottom: 70px;
+    margin-left: 58px;
+    height: 515px;
+    width: 320px;
+
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #1f1f1f;
+
+    .pricing{
+      color: #1f1f1f;
+      p{
+        color: #1f1f1f;
+      }
+
+    }
+    button{
+      color: #FFFFFF;
+      background-color: #FC593B;
+    }
+  }
+  .pop {
+    p{
+      font-size: 10px;
+      align-items: center;
+      text-align: center;
+      margin-top: 5px;
+    }
+    background-color: #4eab08;
+    color: #ffffff;
+    border: 1px solid #4eab08;
+    border-radius: 13px;
+    height: 20px;
+    width: 64px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+  }
+  .formule2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 43px;
+    margin-top: 30px;
+  }
 .content2 {
   margin: auto;
   width: 300px;
@@ -231,10 +390,6 @@ header {
       background: #258aff;
       border-radius: 50%;
       padding: 13px;
-
-      img {
-        transform: translateX(-1px);
-      }
     }
 
     .elem1_1 {
@@ -255,10 +410,7 @@ header {
   .bitmap {
     img {
       border-radius: 30px;
-      margin: auto;
-      width: 300px;
-      max-width: 100%;
-      max-height: 100%;
     }
   }
+}
 }

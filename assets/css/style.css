@@ -149,7 +149,7 @@ header {
 
 .features {
   margin: auto auto 60px auto;
-  width: 75%;
+  width: 300px;
   height: 276px;
 }
 
@@ -165,7 +165,7 @@ header {
           transform: translate(-18%, 163%);
 }
 
-.features ul .feature1 .ft2 p,
+.features ul auto .feature1 .ft2 p,
 .features ul .feature2 .ft2 p,
 .features ul .feature3 .ft2 p {
   line-height: 28px;
@@ -179,21 +179,24 @@ header {
 }
 
 .content1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: auto;
-  width: 75%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: 300px;
+  height: 804px;
+  margin-bottom: 67px;
 }
 
 .content1 .background {
   position: absolute;
-  width: auto;
-  height: 270px;
-  padding-top: 288px;
+  height: 405px;
+  padding-top: 272px;
   left: 0px;
-  top: 970px;
-  background-color: #192f48;
+  right: 0px;
+  top: 986px;
+  background-color: #258aff;
+  z-index: -1;
 }
 
 .content1 .background .container {
@@ -211,12 +214,221 @@ header {
   margin: auto;
 }
 
-.content2 {
+.price {
+  width: 100%;
+  background-color: #192f48;
+  color: #ffffff;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price .price_1 {
+  position: relative;
+  left: -72px;
+}
+
+.price .price_1 p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.price .price_2 p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.price .formule {
+  color: #e5e5e5;
+  height: 32px;
+  width: 39px;
+  padding-left: 45px;
+  font-size: 13px;
+}
+
+.price .formule-txt {
+  color: #e5e5e5;
+  padding-left: 44px;
+  padding-right: 40px;
+  font-size: 12px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.price .box-price1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 57px;
+  margin-bottom: 50px;
+  margin-left: 58px;
+  height: 515px;
+  width: 320px;
+  border: 1px solid #2b405a;
+  border-radius: 6px;
+  background-color: #2b405a;
+}
+
+.price .pricing {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 45px;
+}
+
+.price .pricing .pricing_1 {
+  font-size: 15px;
+}
+
+.price .pricing .pricing_1 p {
+  margin: 0;
+}
+
+.price .pricing .pricing_2 {
+  font-size: 30px;
+}
+
+.price .pricing .pricing_2 p {
+  margin: 0;
+  margin-top: 2px;
+}
+
+.price .pricing .princing_3 {
+  height: 17px;
+}
+
+.price .pricing .pricing_4 {
+  font-size: 17px;
+}
+
+.price ul {
+  list-style-type: none;
+  list-style-image: url(/assets/img/Path.svg);
+}
+
+.price li span {
+  color: #878b90;
+  text-decoration: line-through;
+}
+
+.price .txt-cmt {
+  color: #878b90;
+  font-size: 12px;
+  padding-left: 40px;
+}
+
+.price .button-start {
+  padding-left: 42px;
+}
+
+.price .button-start button {
+  background-color: #258aff;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  width: 181px;
+  font-size: 12px;
+  border: 0;
+}
+
+.price .charact {
+  padding-left: 35px;
+}
+
+.price .box-price2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 57px;
+  margin-bottom: 70px;
+  margin-left: 58px;
+  height: 515px;
+  width: 320px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #1f1f1f;
+}
+
+.price .box-price2 .pricing {
+  color: #1f1f1f;
+}
+
+.price .box-price2 .pricing p {
+  color: #1f1f1f;
+}
+
+.price .box-price2 button {
+  color: #FFFFFF;
+  background-color: #FC593B;
+}
+
+.price .pop {
+  background-color: #4eab08;
+  color: #ffffff;
+  border: 1px solid #4eab08;
+  border-radius: 13px;
+  height: 20px;
+  width: 64px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.price .pop p {
+  font-size: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.price .formule2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 45px;
+  padding-right: 43px;
+  margin-top: 30px;
+}
+
+.price .content2 {
   margin: auto;
   width: 300px;
 }
 
-.content2 .content2_1 {
+.price .content2 .content2_1 {
   line-height: 18px;
   font-weight: bold;
   font-size: 15px;
@@ -225,20 +437,20 @@ header {
   color: #258aff;
 }
 
-.content2 .content2_2 {
+.price .content2 .content2_2 {
   font-weight: bold;
   font-size: 19px;
   line-height: 30px;
   letter-spacing: -1.52632px;
 }
 
-.content2 .content2_3 {
+.price .content2 .content2_3 {
   font-size: 15px;
   line-height: 32px;
   color: #666666;
 }
 
-.content2 .elem1 {
+.price .content2 .elem1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -251,7 +463,7 @@ header {
           align-items: center;
 }
 
-.content2 .elem1 .img {
+.price .content2 .elem1 .img {
   width: 20px;
   height: 20px;
   background: #258aff;
@@ -259,18 +471,13 @@ header {
   padding: 13px;
 }
 
-.content2 .elem1 .img img {
-  -webkit-transform: translateX(-1px);
-          transform: translateX(-1px);
-}
-
-.content2 .elem1 .elem1_1 {
+.price .content2 .elem1 .elem1_1 {
   font-weight: bold;
   font-size: 20px;
   line-height: 32px;
 }
 
-.content2 .elem1 .elem1_2 {
+.price .content2 .elem1 .elem1_2 {
   line-height: 28px;
   text-align: center;
   color: #666666;
@@ -278,11 +485,7 @@ header {
   padding-bottom: 54px;
 }
 
-.content2 .bitmap img {
+.price .content2 .bitmap img {
   border-radius: 30px;
-  margin: auto;
-  width: 300px;
-  max-width: 100%;
-  max-height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
