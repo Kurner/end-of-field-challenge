@@ -290,3 +290,39 @@ header {
     }
   }
 }
+
+.barre {
+  margin: 32px auto 59px auto;
+  width: 354px;
+  height: 0px;
+  left: 37px;
+  top: 3109px;
+  border: 1px solid #ffffff;
+}
+
+.testimonial {
+  margin: auto;
+  width: 300px;
+
+  .text_1 {
+    line-height: 18px;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #258aff;
+  }
+  .text_2 {
+    width: 60%;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -2.52632px;
+    color: #1f1f1f;
+  }
+
+  .text_3 {
+    font-size: 15px;
+    line-height: 32px;
+    color: #666666;
+  }
+}
