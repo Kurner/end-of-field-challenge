@@ -189,12 +189,23 @@ header {
 }
 
 .content1 .background {
+<<<<<<< HEAD
   width: auto;
   height: 270px;
   padding-top: 288px;
   left: 0px;
   top: 970px;
   background-color: #192f48;
+=======
+  position: absolute;
+  height: 405px;
+  padding-top: 272px;
+  left: 0px;
+  right: 0px;
+  top: 986px;
+  background-color: #258aff;
+  z-index: -1;
+>>>>>>> development
 }
 
 .content1 .background .container {
@@ -399,6 +410,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+<<<<<<< HEAD
 }
 
 .price .content2 {
@@ -465,5 +477,7 @@ header {
 
 .price .content2 .bitmap img {
   border-radius: 30px;
+=======
+>>>>>>> development
 }
 /*# sourceMappingURL=style.css.map */
