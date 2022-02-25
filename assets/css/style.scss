@@ -173,14 +173,6 @@ header {
 
   .background {
     position: absolute;
-<<<<<<< HEAD
-    width: auto;
-    height: 270px;
-    padding-top: 288px;
-    left: 0px;
-    top: 970px;
-    background-color: #192f48;
-=======
     height: 405px;
     padding-top: 272px;
     left: 0px;
@@ -188,7 +180,6 @@ header {
     top: 986px;
     background-color: #258aff;
     z-index: -1;
->>>>>>> nicolas
 
     .container {
       margin: auto;
@@ -205,7 +196,67 @@ header {
   }
 }
 
-<<<<<<< HEAD
+.content2 {
+  margin: auto;
+  width: 300px;
+
+  .content2_1 {
+    line-height: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    color: #258aff;
+  }
+
+  .content2_2 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: -1.52632px;
+  }
+
+  .content2_3 {
+    font-size: 15px;
+    line-height: 32px;
+    color: #666666;
+  }
+
+  .elem1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .img {
+      width: 20px;
+      height: 20px;
+      background: #258aff;
+      border-radius: 50%;
+      padding: 13px;
+    }
+
+    .elem1_1 {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 32px;
+    }
+
+    .elem1_2 {
+      line-height: 28px;
+      text-align: center;
+      color: #666666;
+      width: 90%;
+      padding-bottom: 54px;
+    }
+  }
+
+  .bitmap {
+    img {
+      border-radius: 30px;
+    }
+  }
+}
+
 .price {
   width: 100%;
   background-color: #192f48;
@@ -218,15 +269,15 @@ header {
   .price_1 {
     position: relative;
     left: -72px;
-    p{
-    font-size: 15px;
-    font-weight: 700;
+    p {
+      font-size: 15px;
+      font-weight: 700;
     }
   }
   .price_2 {
-    p{
-    font-size: 25px;
-    font-weight: 700;
+    p {
+      font-size: 25px;
+      font-weight: 700;
     }
   }
   .formule {
@@ -328,20 +379,19 @@ header {
     background-color: #ffffff;
     color: #1f1f1f;
 
-    .pricing{
+    .pricing {
       color: #1f1f1f;
-      p{
+      p {
         color: #1f1f1f;
       }
-
     }
-    button{
-      color: #FFFFFF;
-      background-color: #FC593B;
+    button {
+      color: #ffffff;
+      background-color: #fc593b;
     }
   }
   .pop {
-    p{
+    p {
       font-size: 10px;
       align-items: center;
       text-align: center;
@@ -364,70 +414,5 @@ header {
     padding-right: 43px;
     margin-top: 30px;
   }
-<<<<<<< HEAD
-  
-=======
-  //fonctinne en faite 
-=======
-.content2 {
-  margin: auto;
-  width: 300px;
-
-  .content2_1 {
-    line-height: 18px;
-    font-weight: bold;
-    font-size: 15px;
-    letter-spacing: 2.8125px;
-    text-transform: uppercase;
-    color: #258aff;
-  }
-
-  .content2_2 {
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 30px;
-    letter-spacing: -1.52632px;
-  }
-
-  .content2_3 {
-    font-size: 15px;
-    line-height: 32px;
-    color: #666666;
-  }
-
-  .elem1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .img {
-      width: 20px;
-      height: 20px;
-      background: #258aff;
-      border-radius: 50%;
-      padding: 13px;
-    }
-
-    .elem1_1 {
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 32px;
-    }
-
-    .elem1_2 {
-      line-height: 28px;
-      text-align: center;
-      color: #666666;
-      width: 90%;
-      padding-bottom: 54px;
-    }
-  }
-
-  .bitmap {
-    img {
-      border-radius: 30px;
-    }
-  }
->>>>>>> 32baf6fa66215b337b824830467ba43603cd6ff9
->>>>>>> nicolas
+  //fonctinne en faite
 }

@@ -190,14 +190,6 @@ header {
 
 .content1 .background {
   position: absolute;
-<<<<<<< HEAD
-  width: auto;
-  height: 270px;
-  padding-top: 288px;
-  left: 0px;
-  top: 970px;
-  background-color: #192f48;
-=======
   height: 405px;
   padding-top: 272px;
   left: 0px;
@@ -205,7 +197,6 @@ header {
   top: 986px;
   background-color: #258aff;
   z-index: -1;
->>>>>>> nicolas
 }
 
 .content1 .background .container {
@@ -221,6 +212,72 @@ header {
   z-index: 1;
   display: block;
   margin: auto;
+}
+
+.content2 {
+  margin: auto;
+  width: 300px;
+}
+
+.content2 .content2_1 {
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2.8125px;
+  text-transform: uppercase;
+  color: #258aff;
+}
+
+.content2 .content2_2 {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: -1.52632px;
+}
+
+.content2 .content2_3 {
+  font-size: 15px;
+  line-height: 32px;
+  color: #666666;
+}
+
+.content2 .elem1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content2 .elem1 .img {
+  width: 20px;
+  height: 20px;
+  background: #258aff;
+  border-radius: 50%;
+  padding: 13px;
+}
+
+.content2 .elem1 .elem1_1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.content2 .elem1 .elem1_2 {
+  line-height: 28px;
+  text-align: center;
+  color: #666666;
+  width: 90%;
+  padding-bottom: 54px;
+}
+
+.content2 .bitmap img {
+  border-radius: 30px;
 }
 
 .price {
@@ -395,8 +452,8 @@ header {
 }
 
 .price .box-price2 button {
-  color: #FFFFFF;
-  background-color: #FC593B;
+  color: #ffffff;
+  background-color: #fc593b;
 }
 
 .price .pop {
@@ -430,71 +487,5 @@ header {
   padding-left: 45px;
   padding-right: 43px;
   margin-top: 30px;
-}
-
-.content2 {
-  margin: auto;
-  width: 300px;
-}
-
-.content2 .content2_1 {
-  line-height: 18px;
-  font-weight: bold;
-  font-size: 15px;
-  letter-spacing: 2.8125px;
-  text-transform: uppercase;
-  color: #258aff;
-}
-
-.content2 .content2_2 {
-  font-weight: bold;
-  font-size: 19px;
-  line-height: 30px;
-  letter-spacing: -1.52632px;
-}
-
-.content2 .content2_3 {
-  font-size: 15px;
-  line-height: 32px;
-  color: #666666;
-}
-
-.content2 .elem1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.content2 .elem1 .img {
-  width: 20px;
-  height: 20px;
-  background: #258aff;
-  border-radius: 50%;
-  padding: 13px;
-}
-
-.content2 .elem1 .elem1_1 {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 32px;
-}
-
-.content2 .elem1 .elem1_2 {
-  line-height: 28px;
-  text-align: center;
-  color: #666666;
-  width: 90%;
-  padding-bottom: 54px;
-}
-
-.content2 .bitmap img {
-  border-radius: 30px;
 }
 /*# sourceMappingURL=style.css.map */
