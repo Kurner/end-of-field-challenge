@@ -201,7 +201,7 @@ header {
     .container {
       color: white;
       margin: auto;
-      width: 75%;
+      width: 318px;
       height: fit-content;
 
       .button1 {
@@ -319,7 +319,7 @@ header {
 
 .testimonial {
   margin: auto;
-  width: 85%;
+  width: 300px;
 
   .text_1 {
     line-height: 18px;
@@ -388,15 +388,38 @@ header {
 }
 
 .clients {
-  margin: 130px auto 165px auto;
-  width: 83%;
+  margin: auto;
+  width: 300px;
 
   .logoClient {
     filter: grayscale(100%);
-    opacity: 0.5;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+
+    .img1 {
+      height: 21.13px;
+    }
+    .img2 {
+      height: 27.71px;
+    }
+    .img3 {
+      height: 34.22px;
+    }
+    .img4 {
+      height: 23.75px;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50;
+    }
+    .img5 {
+      height: 30.35px;
+    }
   }
   .logoClient img {
     margin-bottom: 35px;

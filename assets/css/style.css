@@ -220,7 +220,7 @@ header nav .bar3 {
 .content1 .background .container {
   color: white;
   margin: auto;
-  width: 75%;
+  width: 318px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -346,7 +346,7 @@ header nav .bar3 {
 
 .testimonial {
   margin: auto;
-  width: 85%;
+  width: 300px;
 }
 
 .testimonial .text_1 {
@@ -437,14 +437,13 @@ header nav .bar3 {
 }
 
 .clients {
-  margin: 130px auto 165px auto;
-  width: 83%;
+  margin: auto;
+  width: 300px;
 }
 
 .clients .logoClient {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
-  opacity: 0.5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,6 +452,36 @@ header nav .bar3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients .logoClient .img1 {
+  height: 21.13px;
+}
+
+.clients .logoClient .img2 {
+  height: 27.71px;
+}
+
+.clients .logoClient .img3 {
+  height: 34.22px;
+}
+
+.clients .logoClient .img4 {
+  height: 23.75px;
+}
+
+.clients .logoClient .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50;
+}
+
+.clients .logoClient .img5 {
+  height: 30.35px;
 }
 
 .clients .logoClient img {
