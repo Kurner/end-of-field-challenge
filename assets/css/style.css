@@ -480,6 +480,11 @@ header {
   padding: 13px;
 }
 
+.content2 .elem1 .img img {
+  -webkit-transform: translateX(-1px);
+          transform: translateX(-1px);
+}
+
 .content2 .elem1 .elem1_1 {
   font-weight: bold;
   font-size: 20px;
@@ -496,5 +501,9 @@ header {
 
 .content2 .bitmap img {
   border-radius: 30px;
+  margin: auto;
+  width: 300px;
+  max-width: 100%;
+  max-height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
