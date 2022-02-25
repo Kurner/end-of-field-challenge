@@ -195,20 +195,27 @@ header {
 }
 
 .price {
+  width: 100%;
   background-color: #192f48;
   color: #ffffff;
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .price_1 {
-    size: 15px;
-    margin-left: 58px;
-    padding-top: 55px;
+    position: relative;
+    left: -72px;
+    p{
+    font-size: 15px;
+    font-weight: 700;
+    }
   }
   .price_2 {
-    size: 25px;
-    line-height: 5px;
-    padding-left: 58px;
-    padding-right: 59px;
+    p{
+    font-size: 25px;
     font-weight: 700;
+    }
   }
   .formule {
     color: #e5e5e5;
@@ -223,6 +230,7 @@ header {
     padding-right: 40px;
     font-size: 12px;
     line-height: 23px;
+    font-weight: 400;
   }
   .box-price1 {
     display: flex;
@@ -232,6 +240,7 @@ header {
     margin-bottom: 50px;
     margin-left: 58px;
     height: 515px;
+    width: 320px;
 
     border: 1px solid #2b405a;
     border-radius: 6px;
@@ -300,6 +309,7 @@ header {
     margin-bottom: 70px;
     margin-left: 58px;
     height: 515px;
+    width: 320px;
 
     border: 1px solid #ffffff;
     border-radius: 6px;
@@ -313,10 +323,17 @@ header {
       }
 
     }
+    button{
+      color: #FFFFFF;
+      background-color: #FC593B;
+    }
   }
   .pop {
     p{
       font-size: 10px;
+      align-items: center;
+      text-align: center;
+      margin-top: 5px;
     }
     background-color: #4eab08;
     color: #ffffff;
@@ -334,10 +351,6 @@ header {
     padding-left: 45px;
     padding-right: 43px;
     margin-top: 30px;
-    // p{
-    //   font-size: 13px;
-    //   font-weight: 700;
-    // }
   }
   
 }

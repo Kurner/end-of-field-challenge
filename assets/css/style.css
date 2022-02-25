@@ -42,7 +42,6 @@ header {
   width: 15px;
   height: 10px;
   left: 375px;
-  top: 10px;
 }
 
 .hero {
@@ -213,22 +212,37 @@ header {
 }
 
 .price {
+  width: 100%;
   background-color: #192f48;
   color: #ffffff;
   padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .price .price_1 {
-  size: 15px;
-  margin-left: 58px;
-  padding-top: 55px;
+  position: relative;
+  left: -72px;
 }
 
-.price .price_2 {
-  size: 25px;
-  line-height: 5px;
-  padding-left: 58px;
-  padding-right: 59px;
+.price .price_1 p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.price .price_2 p {
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -246,6 +260,7 @@ header {
   padding-right: 40px;
   font-size: 12px;
   line-height: 23px;
+  font-weight: 400;
 }
 
 .price .box-price1 {
@@ -263,6 +278,7 @@ header {
   margin-bottom: 50px;
   margin-left: 58px;
   height: 515px;
+  width: 320px;
   border: 1px solid #2b405a;
   border-radius: 6px;
   background-color: #2b405a;
@@ -351,6 +367,7 @@ header {
   margin-bottom: 70px;
   margin-left: 58px;
   height: 515px;
+  width: 320px;
   border: 1px solid #ffffff;
   border-radius: 6px;
   background-color: #ffffff;
@@ -363,6 +380,11 @@ header {
 
 .price .box-price2 .pricing p {
   color: #1f1f1f;
+}
+
+.price .box-price2 button {
+  color: #FFFFFF;
+  background-color: #FC593B;
 }
 
 .price .pop {
@@ -379,6 +401,11 @@ header {
 
 .price .pop p {
   font-size: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .price .formule2 {
