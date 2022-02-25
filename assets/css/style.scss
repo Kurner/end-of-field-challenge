@@ -377,6 +377,29 @@ header {
     border: 1px solid #2b405a;
     border-radius: 6px;
     background-color: #2b405a;
+
+    ul {
+      counter-reset: section;
+
+      list-style-type: none;
+    }
+     li:nth-child(1){
+       list-style-image: url(/assets/img/Path.svg);
+     }
+     li:nth-child(2){
+       list-style-image: url(/assets/img/Path.svg);
+     }
+     li:nth-child(3){
+       list-style: url(/assets/img/Pathgrey.svg);
+       color: #878b90;
+        text-decoration: line-through;
+     }
+     li:nth-child(4){
+       list-style-image: url(/assets/img/Pathgrey.svg);
+       color: #878b90;
+        text-decoration: line-through;
+     }
+
   }
   .pricing {
     color: #ffffff;
@@ -402,16 +425,7 @@ header {
       font-size: 17px;
     }
   }
-  ul {
-    list-style-type: none;
-    list-style-image: url(/assets/img/Path.svg);
-  }
-  li {
-    span {
-      color: #878b90;
-      text-decoration: line-through;
-    }
-  }
+  
   .txt-cmt {
     color: #878b90;
     font-size: 12px;
@@ -447,6 +461,10 @@ header {
     border-radius: 6px;
     background-color: #ffffff;
     color: #1f1f1f;
+    
+    ul{
+      list-style-image: url(/assets/img/Pathblack.svg);
+    }
 
     .pricing{
       color: #1f1f1f;
@@ -511,14 +529,14 @@ footer{
   .menu{
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+    p{
+      font-size: 14px;
+      font-weight: 700;
+      color: #666666;
+    }
     ul{
       list-style-type: none;
-
-      font-size: 14px;
-      color: #666666;
-      p{
-
-      }
+      
       padding-left: 0;
     }
     li{
