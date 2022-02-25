@@ -303,4 +303,8 @@ header {
   width: 90%;
   padding-bottom: 54px;
 }
+
+.content2 .bitmap img {
+  border-radius: 30px;
+}
 /*# sourceMappingURL=style.css.map */
