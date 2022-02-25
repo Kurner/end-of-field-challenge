@@ -139,7 +139,7 @@ header {
 
 .features {
   margin: auto auto 60px auto;
-  width: 300px;
+  width: 75%;
   height: 276px;
   ul {
     list-style-type: none;
@@ -150,7 +150,8 @@ header {
     .feature3 .icone {
       transform: translate(-18%, 163%);
     }
-    auto .feature1 .ft2 p,
+
+    .feature1 .ft2 p,
     .feature2 .ft2 p,
     .feature3 .ft2 p {
       line-height: 28px;
@@ -165,13 +166,12 @@ header {
   }
 }
 .content1 {
-  justify-content: center;
   margin: auto;
-  width: 300px;
-  height: 804px;
-  margin-bottom: 67px;
+  width: 75%;
+  height: fit-content;
 
   .background {
+    position: absolute;
     width: auto;
     height: 270px;
     padding-top: 288px;
@@ -180,19 +180,9 @@ header {
     background-color: #192f48;
 
     .container {
-      color: white;
       margin: auto;
       width: 75%;
       height: fit-content;
-
-      .button1 {
-        border: 0;
-        background: #ffffff;
-        border-radius: 5px;
-        padding: 9px 60px 8px 59px;
-        font-size: 12px;
-        color: #258aff;
-      }
     }
 
     img {
@@ -201,40 +191,31 @@ header {
       display: block;
       margin: auto;
     }
-
-    .content1_1 {
-      font-size: 15px;
-      font-weight: bold;
-      line-height: 18px;
-      letter-spacing: 2.8125px;
-      text-transform: uppercase;
-      width: 32%;
-    }
-    .content1_2 {
-      width: 80%;
-    }
-    .content1_3 {
-      line-height: 32px;
-      width: 88%;
-    }
   }
 }
 
 .price {
+  width: 100%;
   background-color: #192f48;
   color: #ffffff;
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .price_1 {
-    size: 15px;
-    margin-left: 58px;
-    padding-top: 48px;
+    position: relative;
+    left: -72px;
+    p{
+    font-size: 15px;
+    font-weight: 700;
+    }
   }
   .price_2 {
-    size: 25px;
-    line-height: 15px;
-    padding-left: 58px;
-    padding-right: 59px;
+    p{
+    font-size: 25px;
     font-weight: 700;
+    }
   }
   .formule {
     color: #e5e5e5;
@@ -249,6 +230,7 @@ header {
     padding-right: 40px;
     font-size: 12px;
     line-height: 23px;
+    font-weight: 400;
   }
   .box-price1 {
     display: flex;
@@ -258,6 +240,7 @@ header {
     margin-bottom: 50px;
     margin-left: 58px;
     height: 515px;
+    width: 320px;
 
     border: 1px solid #2b405a;
     border-radius: 6px;
@@ -326,80 +309,48 @@ header {
     margin-bottom: 70px;
     margin-left: 58px;
     height: 515px;
+    width: 320px;
 
     border: 1px solid #ffffff;
     border-radius: 6px;
     background-color: #ffffff;
     color: #1f1f1f;
+
+    .pricing{
+      color: #1f1f1f;
+      p{
+        color: #1f1f1f;
+      }
+
+    }
+    button{
+      color: #FFFFFF;
+      background-color: #FC593B;
+    }
   }
   .pop {
+    p{
+      font-size: 10px;
+      align-items: center;
+      text-align: center;
+      margin-top: 5px;
+    }
     background-color: #4eab08;
     color: #ffffff;
     border: 1px solid #4eab08;
     border-radius: 13px;
+    height: 20px;
+    width: 64px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
   }
   .formule2 {
     display: flex;
     justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 43px;
+    margin-top: 30px;
   }
-.content2 {
-  margin: auto;
-  width: 300px;
-
-  .content2_1 {
-    line-height: 18px;
-    font-weight: bold;
-    font-size: 15px;
-    letter-spacing: 2.8125px;
-    text-transform: uppercase;
-    color: #258aff;
-  }
-
-  .content2_2 {
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 30px;
-    letter-spacing: -1.52632px;
-  }
-
-  .content2_3 {
-    font-size: 15px;
-    line-height: 32px;
-    color: #666666;
-  }
-
-  .elem1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .img {
-      width: 20px;
-      height: 20px;
-      background: #258aff;
-      border-radius: 50%;
-      padding: 13px;
-    }
-
-    .elem1_1 {
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 32px;
-    }
-
-    .elem1_2 {
-      line-height: 28px;
-      text-align: center;
-      color: #666666;
-      width: 90%;
-      padding-bottom: 54px;
-    }
-  }
-
-  .bitmap {
-    img {
-      border-radius: 30px;
-    }
-  }
-}
+  
 }
