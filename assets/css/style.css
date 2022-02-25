@@ -576,21 +576,13 @@ header nav .bar3 {
 }
 
 .price .box-price1 li:nth-child(3) {
-<<<<<<< HEAD
-  list-style: url(/assets/img/Pathgrey.svg);
-=======
   list-style: url(/assets/img/PathGrey.svg);
->>>>>>> development
   color: #878b90;
   text-decoration: line-through;
 }
 
 .price .box-price1 li:nth-child(4) {
-<<<<<<< HEAD
-  list-style-image: url(/assets/img/Pathgrey.svg);
-=======
   list-style-image: url(/assets/img/PathGrey.svg);
->>>>>>> development
   color: #878b90;
   text-decoration: line-through;
 }
@@ -677,11 +669,7 @@ header nav .bar3 {
 }
 
 .price .box-price2 ul {
-<<<<<<< HEAD
-  list-style-image: url(/assets/img/Pathblack.svg);
-=======
   list-style-image: url(/assets/img/PathBlack.svg);
->>>>>>> development
 }
 
 .price .box-price2 .pricing {
@@ -740,7 +728,7 @@ header nav .bar3 {
 }
 
 footer {
-  width: 100%;
+  width: auto;
   margin: 50px;
 }
 
