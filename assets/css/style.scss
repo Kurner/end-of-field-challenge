@@ -182,9 +182,19 @@ header {
     z-index: -1;
 
     .container {
+      color: white;
       margin: auto;
       width: 75%;
       height: fit-content;
+
+      .button1 {
+        border: 0;
+        background: #ffffff;
+        border-radius: 5px;
+        padding: 9px 60px 8px 59px;
+        font-size: 12px;
+        color: #258aff;
+      }
     }
 
     img {
@@ -192,6 +202,22 @@ header {
       z-index: 1;
       display: block;
       margin: auto;
+    }
+
+    .content1_1 {
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 18px;
+      letter-spacing: 2.8125px;
+      text-transform: uppercase;
+      width: 32%;
+    }
+    .content1_2 {
+      width: 80%;
+    }
+    .content1_3 {
+      line-height: 32px;
+      width: 88%;
     }
   }
 }
@@ -233,6 +259,10 @@ header {
       background: #258aff;
       border-radius: 50%;
       padding: 13px;
+
+      img {
+        transform: translateX(-1px);
+      }
     }
 
     .elem1_1 {
@@ -253,166 +283,46 @@ header {
   .bitmap {
     img {
       border-radius: 30px;
+      margin: auto;
+      width: 300px;
+      max-width: 100%;
+      max-height: 100%;
     }
   }
 }
 
-.price {
-  width: 100%;
-  background-color: #192f48;
-  color: #ffffff;
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .price_1 {
-    position: relative;
-    left: -72px;
-    p {
-      font-size: 15px;
-      font-weight: 700;
-    }
-  }
-  .price_2 {
-    p {
-      font-size: 25px;
-      font-weight: 700;
-    }
-  }
-  .formule {
-    color: #e5e5e5;
-    height: 32px;
-    width: 39px;
-    padding-left: 45px;
-    font-size: 13px;
-  }
-  .formule-txt {
-    color: #e5e5e5;
-    padding-left: 44px;
-    padding-right: 40px;
-    font-size: 12px;
-    line-height: 23px;
-    font-weight: 400;
-  }
-  .box-price1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-right: 57px;
-    margin-bottom: 50px;
-    margin-left: 58px;
-    height: 515px;
-    width: 320px;
+.barre {
+  margin: 32px auto 59px auto;
+  width: 354px;
+  height: 0px;
+  left: 37px;
+  top: 3109px;
+  border: 1px solid #ffffff;
+}
 
-    border: 1px solid #2b405a;
-    border-radius: 6px;
-    background-color: #2b405a;
-  }
-  .pricing {
-    color: #ffffff;
-    display: flex;
-    padding-left: 45px;
-    .pricing_1 {
-      font-size: 15px;
-      p {
-        margin: 0;
-      }
-    }
-    .pricing_2 {
-      font-size: 30px;
-      p {
-        margin: 0;
-        margin-top: 2px;
-      }
-    }
-    .princing_3 {
-      height: 17px;
-    }
-    .pricing_4 {
-      font-size: 17px;
-    }
-  }
-  ul {
-    list-style-type: none;
-    list-style-image: url(/assets/img/Path.svg);
-  }
-  li {
-    span {
-      color: #878b90;
-      text-decoration: line-through;
-    }
-  }
-  .txt-cmt {
-    color: #878b90;
-    font-size: 12px;
-    padding-left: 40px;
-  }
-  .button-start {
-    padding-left: 42px;
-    button {
-      background-color: #258aff;
-      color: #ffffff;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      border-radius: 5px;
-      width: 181px;
-      font-size: 12px;
-      border: 0;
-    }
-  }
-  .charact {
-    padding-left: 35px;
-  }
-  .box-price2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-right: 57px;
-    margin-bottom: 70px;
-    margin-left: 58px;
-    height: 515px;
-    width: 320px;
+.testimonial {
+  margin: auto;
+  width: 300px;
 
-    border: 1px solid #ffffff;
-    border-radius: 6px;
-    background-color: #ffffff;
+  .text_1 {
+    line-height: 18px;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #258aff;
+  }
+  .text_2 {
+    width: 60%;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -2.52632px;
     color: #1f1f1f;
+  }
 
-    .pricing {
-      color: #1f1f1f;
-      p {
-        color: #1f1f1f;
-      }
-    }
-    button {
-      color: #ffffff;
-      background-color: #fc593b;
-    }
+  .text_3 {
+    font-size: 15px;
+    line-height: 32px;
+    color: #666666;
   }
-  .pop {
-    p {
-      font-size: 10px;
-      align-items: center;
-      text-align: center;
-      margin-top: 5px;
-    }
-    background-color: #4eab08;
-    color: #ffffff;
-    border: 1px solid #4eab08;
-    border-radius: 13px;
-    height: 20px;
-    width: 64px;
-    margin-top: 15px;
-    text-align: center;
-    font-weight: normal;
-  }
-  .formule2 {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 45px;
-    padding-right: 43px;
-    margin-top: 30px;
-  }
-  //fonctinne en faite
 }
