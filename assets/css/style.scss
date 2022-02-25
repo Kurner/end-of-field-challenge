@@ -506,11 +506,22 @@ header {
     padding-left: 45px;
     .pricing_1 {
       font-size: 15px;
-      font-weight: bold;
-      line-height: 18px;
-      letter-spacing: 2.8125px;
-      text-transform: uppercase;
-      width: 32%;
+      p {
+        margin: 0;
+      }
+    }
+    .pricing_2 {
+      font-size: 30px;
+      p {
+        margin: 0;
+        margin-top: 2px;
+      }
+    }
+    .princing_3 {
+      height: 17px;
+    }
+    .pricing_4 {
+      font-size: 17px;
     }
   }
 
@@ -600,7 +611,7 @@ header {
   }
 }
 footer {
-  width: 100%;
+  width: auto;
   margin: 50px;
   .logo {
     margin: 0;

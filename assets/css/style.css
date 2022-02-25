@@ -597,11 +597,27 @@ header nav .bar3 {
 
 .price .pricing .pricing_1 {
   font-size: 15px;
-  font-weight: bold;
-  line-height: 18px;
-  letter-spacing: 2.8125px;
-  text-transform: uppercase;
-  width: 32%;
+}
+
+.price .pricing .pricing_1 p {
+  margin: 0;
+}
+
+.price .pricing .pricing_2 {
+  font-size: 30px;
+}
+
+.price .pricing .pricing_2 p {
+  margin: 0;
+  margin-top: 2px;
+}
+
+.price .pricing .princing_3 {
+  height: 17px;
+}
+
+.price .pricing .pricing_4 {
+  font-size: 17px;
 }
 
 .price .txt-cmt {
@@ -712,7 +728,7 @@ header nav .bar3 {
 }
 
 footer {
-  width: 100%;
+  width: auto;
   margin: 50px;
 }
 
