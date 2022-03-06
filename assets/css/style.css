@@ -11,10 +11,6 @@ header {
   position: relative;
 }
 
-header .dkp {
-  display: none;
-}
-
 header .burger {
   position: absolute;
   width: auto;
@@ -681,8 +677,8 @@ header nav .bar3 {
 }
 
 .price .box-price2 button {
-  color: #FFFFFF;
-  background-color: #FC593B;
+  color: #ffffff;
+  background-color: #fc593b;
 }
 
 .price .pop {
@@ -783,6 +779,81 @@ footer .menu li {
 
 footer .menu a {
   text-decoration: none;
-  color: #1F1F1F;
+  color: #1f1f1f;
+}
+
+@media only screen and (max-width: 768px) {
+  .dkp {
+    visibility: hidden;
+  }
+  .nav_btn {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin: auto;
+    height: 65px;
+    width: 60%;
+    margin-top: 30px;
+  }
+  .burger {
+    display: none;
+  }
+  .dkp {
+    left: 25%;
+  }
+  .dkp ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    visibility: visible;
+    list-style-type: none;
+    gap: 45px;
+    font-size: 13px;
+    margin-top: 0;
+  }
+  .dkp ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav_btn {
+    position: absolute;
+    color: #258aff;
+    background: #e5e5e5;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px #258aff solid;
+    cursor: pointer;
+    padding: 10px 30px;
+    right: -90%;
+    top: -15px;
+  }
+  .hero {
+    width: 578px;
+  }
+  .features {
+    width: 845px;
+  }
+  .features ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    width: auto;
+  }
+  .content1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -10,9 +10,6 @@ header {
   height: 847px;
   position: relative;
 
-  .dkp {
-    display: none;
-  }
   .burger {
     position: absolute;
     width: auto;
@@ -438,15 +435,15 @@ header {
     padding-top: 48px;
     position: relative;
     left: -72px;
-    p{
-    font-size: 15px;
-    font-weight: 700;
+    p {
+      font-size: 15px;
+      font-weight: 700;
     }
   }
   .price_2 {
-    p{
-    font-size: 25px;
-    font-weight: 700;
+    p {
+      font-size: 25px;
+      font-weight: 700;
     }
   }
   .formule {
@@ -483,23 +480,22 @@ header {
 
       list-style-type: none;
     }
-     li:nth-child(1){
-       list-style-image: url(/assets/img/Path.svg);
-     }
-     li:nth-child(2){
-       list-style-image: url(/assets/img/Path.svg);
-     }
-     li:nth-child(3){
-       list-style: url(/assets/img/PathGrey.svg);
-       color: #878b90;
-        text-decoration: line-through;
-     }
-     li:nth-child(4){
-       list-style-image: url(/assets/img/PathGrey.svg);
-       color: #878b90;
-        text-decoration: line-through;
-     }
-
+    li:nth-child(1) {
+      list-style-image: url(/assets/img/Path.svg);
+    }
+    li:nth-child(2) {
+      list-style-image: url(/assets/img/Path.svg);
+    }
+    li:nth-child(3) {
+      list-style: url(/assets/img/PathGrey.svg);
+      color: #878b90;
+      text-decoration: line-through;
+    }
+    li:nth-child(4) {
+      list-style-image: url(/assets/img/PathGrey.svg);
+      color: #878b90;
+      text-decoration: line-through;
+    }
   }
   .pricing {
     color: #ffffff;
@@ -525,7 +521,7 @@ header {
       font-size: 17px;
     }
   }
-  
+
   .txt-cmt {
     color: #878b90;
     font-size: 12px;
@@ -562,25 +558,24 @@ header {
     border-radius: 6px;
     background-color: #ffffff;
     color: #1f1f1f;
-    
-    ul{
+
+    ul {
       list-style-image: url(/assets/img/PathBlack.svg);
     }
 
-    .pricing{
+    .pricing {
       color: #1f1f1f;
-      p{
+      p {
         color: #1f1f1f;
       }
-
     }
-    button{
-      color: #FFFFFF;
-      background-color: #FC593B;
+    button {
+      color: #ffffff;
+      background-color: #fc593b;
     }
   }
   .pop {
-    p{
+    p {
       font-size: 10px;
       align-items: center;
       text-align: center;
@@ -603,7 +598,7 @@ header {
     padding-right: 43px;
     margin-top: 30px;
   }
-  .formule-txt2{
+  .formule-txt2 {
     color: #666666;
     padding-left: 44px;
     padding-right: 40px;
@@ -612,14 +607,14 @@ header {
     font-weight: 400;
   }
 }
-footer{
+footer {
   width: auto;
   margin: 50px;
-  .logo{
+  .logo {
     margin: 0;
     margin-bottom: 0.5rem;
   }
-  .footxt{
+  .footxt {
     width: 312px;
     height: 84px;
 
@@ -628,34 +623,108 @@ footer{
     line-height: 28px;
     color: #666666;
   }
-  .social{
+  .social {
     display: flex;
     flex-direction: row;
     gap: 0.9rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
-  .menu{
+  .menu {
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    p{
+    p {
       font-size: 14px;
       font-weight: 700;
       color: #666666;
     }
-    ul{
+    ul {
       list-style-type: none;
-      
+
       padding-left: 0;
     }
-    li{
+    li {
       line-height: 40px;
       font-size: 15px;
       font-weight: 700;
     }
-    a{
+    a {
       text-decoration: none;
-      color: #1F1F1F;
+      color: #1f1f1f;
     }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dkp {
+    visibility: hidden;
+  }
+
+  .nav_btn {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin: auto;
+    height: 65px;
+    width: 60%;
+    margin-top: 30px;
+  }
+  .burger {
+    display: none;
+  }
+  .dkp {
+    left: 25%;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      visibility: visible;
+      list-style-type: none;
+      gap: 45px;
+      font-size: 13px;
+      margin-top: 0;
+
+      li a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+
+  .nav_btn {
+    position: absolute;
+    color: #258aff;
+    background: #e5e5e5;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px #258aff solid;
+    cursor: pointer;
+    padding: 10px 30px;
+    right: -90%;
+    top: -15px;
+  }
+
+  .hero {
+    width: 578px;
+  }
+
+  .features {
+    width: 845px;
+
+    ul {
+      display: flex;
+      gap: 50px;
+      width: auto;
+    }
+  }
+
+  .content1 {
+    display: flex;
   }
 }
