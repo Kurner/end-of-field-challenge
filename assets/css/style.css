@@ -11,10 +11,6 @@ header {
   position: relative;
 }
 
-header .dkp {
-  display: none;
-}
-
 header .burger {
   position: absolute;
   width: auto;
@@ -381,6 +377,7 @@ header nav .bar3 {
 .testimonial .catherine,
 .testimonial .harvey,
 .testimonial .leo {
+  width: 300px;
   background-color: white;
   border-radius: 5px;
   position: relative;
@@ -784,5 +781,218 @@ footer .menu li {
 footer .menu a {
   text-decoration: none;
   color: #1f1f1f;
+}
+
+@media only screen and (max-width: 768px) {
+  .dkp {
+    visibility: hidden;
+  }
+  .nav_btn {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin: auto;
+    height: 65px;
+    width: 60%;
+    margin-top: 30px;
+  }
+  .burger {
+    display: none;
+  }
+  .dkp {
+    left: 25%;
+  }
+  .dkp ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    visibility: visible;
+    list-style-type: none;
+    gap: 45px;
+    font-size: 13px;
+    margin-top: 0;
+  }
+  .dkp ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav_btn {
+    position: absolute;
+    color: #258aff;
+    background: #e5e5e5;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px #258aff solid;
+    cursor: pointer;
+    padding: 10px 30px;
+    right: -90%;
+    top: -15px;
+  }
+  .hero {
+    width: 578px;
+  }
+  .features {
+    width: 845px;
+  }
+  .features ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    width: auto;
+  }
+  header {
+    height: 640px;
+  }
+  .content1 {
+    background-color: #258aff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 530px;
+  }
+  .content1 .background {
+    z-index: 1;
+    position: inherit;
+    background-color: transparent;
+  }
+  .content1 .background .content1_1 {
+    width: 100%;
+    font-size: 12px;
+  }
+  .content1 .background .content1_3 {
+    line-height: 24px;
+    width: 95%;
+  }
+  .content1 .background .container {
+    width: 350px;
+    -webkit-transform: translateY(-90px);
+            transform: translateY(-90px);
+  }
+  .content1 .background .container .button1 {
+    padding: 22px 60px 18px 59px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .content2 {
+    position: relative;
+    width: 720px;
+  }
+  .content2 .textC2 {
+    width: 618px;
+    -webkit-transform: translateX(-88px);
+            transform: translateX(-88px);
+  }
+  .content2 .content2_2 {
+    width: 300px;
+    line-height: 36px;
+  }
+  .content2 .content2_3 {
+    width: 384px;
+  }
+  .content2 .icones {
+    display: -webkit-box;
+    width: 40%;
+    margin-top: 80px;
+  }
+  .content2 .icones .elem1 {
+    -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
+  }
+  .content2 .icones .elem1 .elem1_2 {
+    text-align: inherit;
+  }
+  .content2 .icones .elem1 .elem1_2 p {
+    margin: 0;
+  }
+  .content2 .bitmap {
+    position: absolute;
+    top: 0;
+    right: -96px;
+  }
+  .barre {
+    width: 80%;
+  }
+  .testimonial {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .testimonial .containerTxt {
+    width: 613px;
+    margin-left: 112px;
+  }
+  .testimonial .group {
+    margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .testimonial .group .cameron,
+  .testimonial .group .catherine,
+  .testimonial .group .harvey,
+  .testimonial .group .leo {
+    margin-right: 30px;
+  }
+  .testimonial .group .harvey,
+  .testimonial .group .leo {
+    display: block;
+  }
+  .clients {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+  }
+  .clients .logoClient {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .clients .logoClient .img1,
+  .clients .logoClient .img2,
+  .clients .logoClient .img3,
+  .clients .logoClient .img4,
+  .clients .logoClient .center {
+    margin-left: 100px;
+  }
+  .price {
+    padding-top: 70px;
+  }
+  .price .price_1,
+  .price .price_2 {
+    text-align: center;
+  }
+  .price .boxContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .price .boxContainer .box-price1 {
+    margin-right: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
