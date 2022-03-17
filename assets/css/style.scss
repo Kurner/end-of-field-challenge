@@ -847,9 +847,18 @@ footer {
 
   .price {
     padding-top: 70px;
-    .price_1,
+    padding-bottom: 90px;
+    .price_1 {
+      right: 0;
+      left: 0;
+    }
     .price_2 {
       text-align: center;
+      line-height: 8px;
+      margin-bottom: 90px;
+      p {
+        font-size: 36px;
+      }
     }
     .boxContainer {
       display: flex;
@@ -857,5 +866,24 @@ footer {
         margin-right: 0;
       }
     }
+  }
+  .logo {
+    display: flex;
+    zoom: 1.5;
+    height: 0;
+  }
+  #Contact {
+    margin-top: 85px;
+    display: flex;
+  }
+  .containerFooter1 {
+    margin-right: 250px;
+  }
+  .containerFooter2 {
+    display: flex;
+    gap: 100px;
+  }
+  .footxt {
+    margin-top: 50px;
   }
 }

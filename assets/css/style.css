@@ -981,10 +981,19 @@ footer .menu a {
   }
   .price {
     padding-top: 70px;
+    padding-bottom: 90px;
   }
-  .price .price_1,
+  .price .price_1 {
+    right: 0;
+    left: 0;
+  }
   .price .price_2 {
     text-align: center;
+    line-height: 8px;
+    margin-bottom: 90px;
+  }
+  .price .price_2 p {
+    font-size: 36px;
   }
   .price .boxContainer {
     display: -webkit-box;
@@ -993,6 +1002,31 @@ footer .menu a {
   }
   .price .boxContainer .box-price1 {
     margin-right: 0;
+  }
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    zoom: 1.5;
+    height: 0;
+  }
+  #Contact {
+    margin-top: 85px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .containerFooter1 {
+    margin-right: 250px;
+  }
+  .containerFooter2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 100px;
+  }
+  .footxt {
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */
