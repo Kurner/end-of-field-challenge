@@ -793,17 +793,32 @@ footer .menu a {
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    margin-bottom: 140px;
+  }
   .logo {
     margin: auto;
     height: 65px;
     width: 60%;
     margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    zoom: 1.5;
+    height: 0;
+    margin-bottom: 110px;
+  }
+  .logo a {
+    height: 9px;
   }
   .burger {
     display: none;
   }
   .dkp {
     left: 25%;
+  }
+  .dkp .nav_btn {
+    right: -135%;
   }
   .dkp ul {
     display: -webkit-box;
@@ -815,7 +830,7 @@ footer .menu a {
             flex-direction: row;
     visibility: visible;
     list-style-type: none;
-    gap: 45px;
+    gap: 25px;
     font-size: 13px;
     margin-top: 0;
   }
@@ -929,6 +944,9 @@ footer .menu a {
     top: 0;
     right: -96px;
   }
+  .content2 .bitmap img {
+    width: 325px;
+  }
   .barre {
     width: 80%;
   }
@@ -1003,18 +1021,17 @@ footer .menu a {
   .price .boxContainer .box-price1 {
     margin-right: 0;
   }
-  .logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    zoom: 1.5;
-    height: 0;
-  }
   #Contact {
     margin-top: 85px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  #Contact .social {
+    zoom: 1.5;
   }
   .containerFooter1 {
     margin-right: 250px;

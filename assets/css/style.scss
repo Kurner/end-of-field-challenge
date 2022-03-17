@@ -667,24 +667,37 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    margin-bottom: 140px;
+  }
   .logo {
     margin: auto;
     height: 65px;
     width: 60%;
     margin-top: 30px;
+    display: flex;
+    zoom: 1.5;
+    height: 0;
+    margin-bottom: 110px;
+    a {
+      height: 9px;
+    }
   }
   .burger {
     display: none;
   }
   .dkp {
     left: 25%;
+    .nav_btn {
+      right: -135%;
+    }
 
     ul {
       display: flex;
       flex-direction: row;
       visibility: visible;
       list-style-type: none;
-      gap: 45px;
+      gap: 25px;
       font-size: 13px;
       margin-top: 0;
 
@@ -797,6 +810,9 @@ footer {
       position: absolute;
       top: 0;
       right: -96px;
+      img {
+        width: 325px;
+      }
     }
   }
 
@@ -867,14 +883,13 @@ footer {
       }
     }
   }
-  .logo {
-    display: flex;
-    zoom: 1.5;
-    height: 0;
-  }
   #Contact {
     margin-top: 85px;
     display: flex;
+    align-items: baseline;
+    .social {
+      zoom: 1.5;
+    }
   }
   .containerFooter1 {
     margin-right: 250px;
