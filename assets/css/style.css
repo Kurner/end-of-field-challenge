@@ -565,21 +565,21 @@ header nav .bar3 {
 }
 
 .price .box-price1 li:nth-child(1) {
-  list-style-image: url(/assets/img/Path.svg);
+  list-style-image: url(../img/Path.svg);
 }
 
 .price .box-price1 li:nth-child(2) {
-  list-style-image: url(/assets/img/Path.svg);
+  list-style-image: url(../img/Path.svg);
 }
 
 .price .box-price1 li:nth-child(3) {
-  list-style: url(/assets/img/PathGrey.svg);
+  list-style: url(../img/PathGrey.svg);
   color: #878b90;
   text-decoration: line-through;
 }
 
 .price .box-price1 li:nth-child(4) {
-  list-style-image: url(/assets/img/PathGrey.svg);
+  list-style-image: url(../img/PathGrey.svg);
   color: #878b90;
   text-decoration: line-through;
 }
@@ -666,7 +666,7 @@ header nav .bar3 {
 }
 
 .price .box-price2 ul {
-  list-style-image: url(/assets/img/PathBlack.svg);
+  list-style-image: url(../img/PathBlack.svg);
 }
 
 .price .box-price2 .pricing {

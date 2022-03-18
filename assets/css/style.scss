@@ -482,18 +482,18 @@ header {
       list-style-type: none;
     }
     li:nth-child(1) {
-      list-style-image: url(/assets/img/Path.svg);
+      list-style-image: url(../img/Path.svg);
     }
     li:nth-child(2) {
-      list-style-image: url(/assets/img/Path.svg);
+      list-style-image: url(../img/Path.svg);
     }
     li:nth-child(3) {
-      list-style: url(/assets/img/PathGrey.svg);
+      list-style: url(../img/PathGrey.svg);
       color: #878b90;
       text-decoration: line-through;
     }
     li:nth-child(4) {
-      list-style-image: url(/assets/img/PathGrey.svg);
+      list-style-image: url(../img/PathGrey.svg);
       color: #878b90;
       text-decoration: line-through;
     }
@@ -561,7 +561,7 @@ header {
     color: #1f1f1f;
 
     ul {
-      list-style-image: url(/assets/img/PathBlack.svg);
+      list-style-image: url(../img/PathBlack.svg);
     }
 
     .pricing {
